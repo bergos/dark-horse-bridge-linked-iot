@@ -1,0 +1,35 @@
+{
+  "name": "dark-horse-bridge-linked-iot",
+  "version": "0.0.1",
+  "description": "Dark Horse bridge for Linked IoT devices",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bergos/dark-horse-bridge-linked-iot.git"
+  },
+  "keywords": [
+    "iot",
+    "linked"
+  ],
+  "author": "Thomas Bergwinkl <bergi@axolotlfarm.org> (https://www.bergnet.org/people/bergi/card#me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bergos/dark-horse-bridge-linked-iot/issues"
+  },
+  "homepage": "https://github.com/bergos/dark-horse-bridge-linked-iot",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "commander": "^2.11.0",
+    "http-streams": "^1.0.0",
+    "lodash": "^4.17.4",
+    "serialport": "^5.0.0"
+  },
+  "devDependencies": {
+    "concat-stream": "^1.6.0",
+    "mocha": "^3.5.3",
+    "standard": "^10.0.3"
+  }
+}
